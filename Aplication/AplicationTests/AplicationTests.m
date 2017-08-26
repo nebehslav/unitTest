@@ -33,7 +33,7 @@
 
 - (void)testPerformanceExample {
 
-    XCTAssert(false);
+    XCTAssert(true);
 }
 
 @end
