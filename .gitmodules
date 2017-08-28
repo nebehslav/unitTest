@@ -1,6 +1,6 @@
-[submodule "vendor/googletests"]
-	path = vendor/googletests
-	url = https://github.com/google/googletest.git
 [submodule "vendor/xcode-googletest"]
 	path = vendor/xcode-googletest
 	url = https://github.com/mattstevens/xcode-googletest.git
+[submodule "vendor/googletest"]
+	path = vendor/googletest
+	url = https://github.com/google/googletest.git
