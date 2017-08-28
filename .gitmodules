@@ -1,3 +1,0 @@
-[submodule "vendor/xcode-googletest"]
-	path = vendor/xcode-googletest
-	url = https://github.com/mattstevens/xcode-googletest.git
