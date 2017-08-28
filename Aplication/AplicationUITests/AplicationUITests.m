@@ -32,9 +32,30 @@
     [super tearDown];
 }
 
+
 - (void)testExample {
-    // Use recording to get started writing UI tests.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+    
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    [app.buttons[@"Second"] tap];
+    [app.buttons[@"First"] tap];
+    
+    XCUIElement *button = app.buttons[@"Button"];
+    [button tap];
+    [button swipeRight];
+    
+    [app.switches[@"1"] tap];
+    
+    XCUIElement *textField = [[app.otherElements containingType:XCUIElementTypeButton identifier:@"Button"] childrenMatchingType:XCUIElementTypeTextField].element;
+    [textField tap];
+    [textField typeText:@"ala bala"];
+
+    
+    [[[[[app.otherElements containingType:XCUIElementTypeButton identifier:@"Button"] childrenMatchingType:XCUIElementTypeSlider] matchingIdentifier:@"50%"] elementBoundByIndex:0] swipeRight];
+    [app.sliders[@"79%"] swipeLeft];
+    [app.sliders[@"50%"] swipeRight];
+    [app.sliders[@"77%"] swipeLeft];
+    
 }
 
 @end
