@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "77B9B7FA5E3BC45F1DC99103C6E2497928B570E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "77B9B7FA5E3BC45F1DC99103C6E2497928B570E8" : 9223372036854775807,
+    "5AE1E37C8E12022E9F13896205D802395FD781B0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1A44B3D6-5462-4A9A-8612-6219B14A9A05",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "77B9B7FA5E3BC45F1DC99103C6E2497928B570E8" : "xcode-googletest\/",
+    "5AE1E37C8E12022E9F13896205D802395FD781B0" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GoogleTestExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GoogleTestExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nebehslav\/unitTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5AE1E37C8E12022E9F13896205D802395FD781B0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mattstevens\/xcode-googletest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "77B9B7FA5E3BC45F1DC99103C6E2497928B570E8"
+    }
+  ]
+}
