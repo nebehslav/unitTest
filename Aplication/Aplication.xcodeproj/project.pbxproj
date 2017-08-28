@@ -15,6 +15,10 @@
 		454180D81F51671E00E1393A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454180D61F51671E00E1393A /* LaunchScreen.storyboard */; };
 		454180E31F51671E00E1393A /* AplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454180E21F51671E00E1393A /* AplicationTests.m */; };
 		454180EE1F51671E00E1393A /* AplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454180ED1F51671E00E1393A /* AplicationUITests.m */; };
+		45A1A7E71F53F58A00E318F2 /* ApplicationTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45A1A7E51F53F58A00E318F2 /* ApplicationTest.cpp */; };
+		45A1A7FE1F53F98A00E318F2 /* Counter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45A1A7FC1F53F98A00E318F2 /* Counter.cpp */; };
+		45A1A83B1F54008800E318F2 /* GoogleTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45A1A83A1F54008800E318F2 /* GoogleTests.mm */; };
+		45A1A85C1F54072000E318F2 /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 45A1A85A1F5406F500E318F2 /* gtest-all.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		454180E91F51671E00E1393A /* AplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		454180ED1F51671E00E1393A /* AplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AplicationUITests.m; sourceTree = "<group>"; };
 		454180EF1F51671E00E1393A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A1A7E51F53F58A00E318F2 /* ApplicationTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ApplicationTest.cpp; sourceTree = "<group>"; };
+		45A1A7FC1F53F98A00E318F2 /* Counter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Counter.cpp; sourceTree = "<group>"; };
+		45A1A7FD1F53F98A00E318F2 /* Counter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Counter.h; sourceTree = "<group>"; };
+		45A1A83A1F54008800E318F2 /* GoogleTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GoogleTests.mm; path = "../../vendor/xcode-googletest/Bundle/GoogleTests.mm"; sourceTree = "<group>"; };
+		45A1A85A1F5406F500E318F2 /* gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-all.cc"; path = "../vendor/xcode-googletest/Dependencies/gtest/src/gtest-all.cc"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		454180BC1F51671E00E1393A = {
 			isa = PBXGroup;
 			children = (
+				45A1A8411F5405FE00E318F2 /* GoogleTest Bundle */,
 				454180C71F51671E00E1393A /* Aplication */,
 				454180E11F51671E00E1393A /* AplicationTests */,
 				454180EC1F51671E00E1393A /* AplicationUITests */,
@@ -110,6 +120,8 @@
 				454180D61F51671E00E1393A /* LaunchScreen.storyboard */,
 				454180D91F51671E00E1393A /* Info.plist */,
 				454180C81F51671E00E1393A /* Supporting Files */,
+				45A1A7FC1F53F98A00E318F2 /* Counter.cpp */,
+				45A1A7FD1F53F98A00E318F2 /* Counter.h */,
 			);
 			path = Aplication;
 			sourceTree = "<group>";
@@ -125,8 +137,10 @@
 		454180E11F51671E00E1393A /* AplicationTests */ = {
 			isa = PBXGroup;
 			children = (
+				45A1A83A1F54008800E318F2 /* GoogleTests.mm */,
 				454180E21F51671E00E1393A /* AplicationTests.m */,
 				454180E41F51671E00E1393A /* Info.plist */,
+				45A1A7E51F53F58A00E318F2 /* ApplicationTest.cpp */,
 			);
 			path = AplicationTests;
 			sourceTree = "<group>";
@@ -138,6 +152,14 @@
 				454180EF1F51671E00E1393A /* Info.plist */,
 			);
 			path = AplicationUITests;
+			sourceTree = "<group>";
+		};
+		45A1A8411F5405FE00E318F2 /* GoogleTest Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				45A1A85A1F5406F500E318F2 /* gtest-all.cc */,
+			);
+			name = "GoogleTest Bundle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A1A7FE1F53F98A00E318F2 /* Counter.cpp in Sources */,
 				454180D01F51671E00E1393A /* ViewController.m in Sources */,
 				454180CD1F51671E00E1393A /* AppDelegate.m in Sources */,
 				454180CA1F51671E00E1393A /* main.m in Sources */,
@@ -283,6 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A1A83B1F54008800E318F2 /* GoogleTests.mm in Sources */,
+				45A1A85C1F54072000E318F2 /* gtest-all.cc in Sources */,
+				45A1A7E71F53F58A00E318F2 /* ApplicationTest.cpp in Sources */,
 				454180E31F51671E00E1393A /* AplicationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +474,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = (
+					"../vendor/xcode-googletest/Dependencies/gtest/include",
+					"../vendor/xcode-googletest/Dependencies/gtest/",
+				);
 				INFOPLIST_FILE = AplicationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobisystems.com.AplicationTests;
@@ -460,6 +490,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = (
+					"../vendor/xcode-googletest/Dependencies/gtest/include",
+					"../vendor/xcode-googletest/Dependencies/gtest/",
+				);
 				INFOPLIST_FILE = AplicationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobisystems.com.AplicationTests;
@@ -509,6 +543,7 @@
 				454180F41F51671E00E1393A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		454180F51F51671E00E1393A /* Build configuration list for PBXNativeTarget "AplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +552,7 @@
 				454180F71F51671E00E1393A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		454180F81F51671E00E1393A /* Build configuration list for PBXNativeTarget "AplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +561,7 @@
 				454180FA1F51671E00E1393A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

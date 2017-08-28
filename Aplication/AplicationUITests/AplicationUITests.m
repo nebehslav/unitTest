@@ -51,11 +51,6 @@
     [textField typeText:@"ala bala"];
 
     
-    [[[[[app.otherElements containingType:XCUIElementTypeButton identifier:@"Button"] childrenMatchingType:XCUIElementTypeSlider] matchingIdentifier:@"50%"] elementBoundByIndex:0] swipeRight];
-    [app.sliders[@"79%"] swipeLeft];
-    [app.sliders[@"50%"] swipeRight];
-    [app.sliders[@"77%"] swipeLeft];
-    
 }
 
 @end
