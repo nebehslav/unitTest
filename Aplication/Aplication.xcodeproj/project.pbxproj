@@ -15,6 +15,9 @@
 		454180D81F51671E00E1393A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454180D61F51671E00E1393A /* LaunchScreen.storyboard */; };
 		454180E31F51671E00E1393A /* AplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454180E21F51671E00E1393A /* AplicationTests.m */; };
 		454180EE1F51671E00E1393A /* AplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454180ED1F51671E00E1393A /* AplicationUITests.m */; };
+		455CF3911F5450BD00B5E343 /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 455CF38B1F5429D600B5E343 /* gtest-all.cc */; };
+		455CF3921F5450BF00B5E343 /* GoogleTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45A1A83A1F54008800E318F2 /* GoogleTests.mm */; };
+		455CF3931F5450C100B5E343 /* ApplicationTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45A1A7E51F53F58A00E318F2 /* ApplicationTest.cpp */; };
 		45A1A7FE1F53F98A00E318F2 /* Counter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45A1A7FC1F53F98A00E318F2 /* Counter.cpp */; };
 /* End PBXBuildFile section */
 
@@ -303,7 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455CF3931F5450C100B5E343 /* ApplicationTest.cpp in Sources */,
+				455CF3921F5450BF00B5E343 /* GoogleTests.mm in Sources */,
 				454180E31F51671E00E1393A /* AplicationTests.m in Sources */,
+				455CF3911F5450BD00B5E343 /* gtest-all.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

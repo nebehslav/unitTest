@@ -37,7 +37,7 @@
 #if GTEST_HAS_DEATH_TEST
 
 # if GTEST_OS_MAC
-#  include <crt_externs.h>
+# // include <crt_externs.h>
 # endif  // GTEST_OS_MAC
 
 # include <errno.h>
@@ -928,7 +928,8 @@ inline char** GetEnviron() {
   // When Google Test is built as a framework on MacOS X, the environ variable
   // is unavailable. Apple's documentation (man environ) recommends using
   // _NSGetEnviron() instead.
-  return *_NSGetEnviron();
+  //return *_NSGetEnviron();
+    return nullptr;
 }
 #  else
 // Some POSIX platforms expect you to declare environ. extern "C" makes
